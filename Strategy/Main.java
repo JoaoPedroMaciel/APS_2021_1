@@ -6,7 +6,7 @@ class Main {
     Marinho robson = new Baiacu();
     
     tutubarao.performarMorder();
-    cleber.performarMergulho();
+    cleber.performarMergulhar();
     perola.performarNadar();
     robson.performarTamanho();
 
