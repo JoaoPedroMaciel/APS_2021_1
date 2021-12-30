@@ -20,7 +20,7 @@ Possui os seguintes pontos positivos :
 5. A herança pode ser substituida por composição.
 6. Detalhes da implementação de um algoritmo podem ser isolados.
 
-Para o nosso codigo, decidimos que o melhor se encaixaria com essa padronização e com nosso projeto até agora trabalhado na cadeira seria a distribuição de preços.
+Para o nosso codigo, decidimos que o melhor se encaixaria com essa padronização seria a utilização de um simples codigo para à "construção" de animais marinhos e como a complexidade dele apesar de baixa pode gerar uma grande quantidade de classes.
 
 fontes :
 
@@ -65,6 +65,8 @@ A aplicabilidade do adapter pode ser listada :
 * se deseja utilizar uma classe existente, porém sua interface não corresponde à interface que se necessita;
 * o desenvolvedor quiser criar classes reutilizáveis que cooperem com classes não-relacionadas ou não-previstas, ou seja, classes que não possuem necessariamente interfaces compatíveis;
 * (exclusivamente para adaptadores de objetos) é necessário utilizar muitas subclasses existentes, porém, impossível de adaptar essas interfaces criando subclasses para cada uma. Um adaptador de objeto pode adaptar a interface de sua classe mãe. 
+
+Para a demonstração dessa padronização escolhemos criar um codigo que demonstre a simples adaptação de um plausivel motor de um carro hibrido, ou seja, que utiliza gasolina e energia eletrica para funcionar.
 
 Fontes :
 
