@@ -1,9 +1,9 @@
 public class Baiacu extends Marinho {
    public Baiacu(){
-      mergulharstrategy = new MergulharBaiacu();
-      morderstrategy = new MorderBaiacu();
-      tamanhostrategy = new TamanhoBaiacu();
-      nadarstrategy = new NadarBaiacu();
+      mergulhoEstrategico = new MergulharBaiacu();
+      morderEstrategico = new MorderBaiacu();
+      tamanhoEstrategico = new TamanhoBaiacu();
+      nadarEstrategico = new NadarBaiacu();
     }
   @Override
     public void mergulhar(){
