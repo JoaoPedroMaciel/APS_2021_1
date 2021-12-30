@@ -1,5 +1,5 @@
 # APS_2021_1
-Tema 8 : Strategy 
+# Tema 8 : Strategy 
 
 O Strategy é um padrão de projeto comportamental que permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
 O padrão é aplicado em situações em que muitas classes se relacionam e diferem apenas no modo de atuação, com isso o Strategy irá configurar a classe que tenha um dentre muitos comportamentos fornecidos. Também pode ser usado quando há a necessidade da variação de um algoritmo, ou seja, pode-se implementar diferentes códigos que chegam no mesmo objetivo, mas que possuem em determinadas situações mais vantagens do que os demais.
@@ -32,7 +32,7 @@ https://refactoring.guru/pt-br/design-patterns/strategy/java/example
 
 https://www.thiengo.com.br/padrao-de-projeto-strategy-estrategia
 
-Tema 13 : Adapter
+# Tema 13 : Adapter
 
 É um padrão, também conhecido como wrapper, que permite que dois componentes com APIs incompatíveis trabalhem juntos, introduzindo um adaptador que mapeia de um componente para o outro. As adaptações podem ser: interface-interface, interface-implementação e implementação-implementação.
 
