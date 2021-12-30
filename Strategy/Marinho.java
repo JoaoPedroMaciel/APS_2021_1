@@ -13,26 +13,32 @@ abstract public class Marinho {
   public void setMergulharStrategy( MergulharStrategy mergulhoEstrategico ){
         this.mergulhoEstrategico = mergulhoEstrategico;
     }
-  public void performarMergulho(){
+    
+  public void performarMergulhar(){
         mergulhoEstrategico.mergulhar();
-    }
+  }
 
   public void setMorderStrategy( MorderStrategy morderEstrategico ){
         this.morderEstrategico = morderEstrategico;
     }
+    
   public void performarMorder(){
         morderEstrategico.morder();
-    }
-  public void setTamanhoStrategy ( TamanhoStrategy tamanhoEstrategico ){
+  }
+
+  public void setTamanhoStrategy( TamanhoStrategy tamanhoEstrategico ){
         this.tamanhoEstrategico = tamanhoEstrategico;
     }
+    
   public void performarTamanho(){
         tamanhoEstrategico.tamanho();
-    }
-  public void setNadarStrategy( NadarStrategy nadarEstrategico ){
+  }
+
+  public void setNadarStrategy( NadarStrategy nadarEstrategico){
         this.nadarEstrategico = nadarEstrategico;
     }
+    
   public void performarNadar(){
         nadarEstrategico.nadar();
-    }
+  }
 }
